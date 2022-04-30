@@ -28,7 +28,7 @@ function setup() {
 
   //criar corpo da base do jogador
   playerBase = Bodies.rectangle(200,350,180,150, options);
-  World.add(world,player);
+  World.add(world,playerBase);
 
   //criar corpo do jogador
   player = Bodies.rectangle(250,playerBase.position.y - 160,50,180, options);
